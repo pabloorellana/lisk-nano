@@ -96,7 +96,6 @@ Feature: Top right menu
     And I click "x button"
     Then I should see no "modal dialog"
 
-  @ignore
   Scenario: should allow to verify message
     Given I'm logged in as "any account"
     When I click "verify message" in main menu
